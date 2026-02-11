@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to right, #754838, #858396);
+    font-size: 16px;
+
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 22%;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+ 
+button:hover {
+    background-color: #754838;
+}
+
+.calculator {
+    width: 500px;
+    height: auto;
+    border: 1px solid #102394;
+}
+
+.orange-button {
+    background-color: #d4950d;
+}
+
+.value {
+    background-color: #ffffff;
+}
+
+.value input {
+    width: 100%;
+}
